@@ -128,3 +128,51 @@ footer {
 .back-link:hover {
   text-decoration: underline;
 }
+/* Container to center the whole content */
+.container {
+  max-width: 1200px; /* Adjust as needed */
+  margin: 0 auto;    /* Centers the container */
+  padding: 20px;
+  text-align: center; /* Centers the text inside the container */
+}
+
+/* Header styles */
+header {
+  background-color: #f8f8ff; /* Light, bright color */
+  padding: 20px;
+}
+
+/* Center header image */
+header img {
+  display: block;
+  margin: 20px auto; /* Centers the image */
+  max-width: 80%;    /* Adjust size if needed */
+  height: auto;
+}
+
+/* Center navigation links */
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center; /* Centers the nav items */
+  margin: 0;
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+
+/* Center gallery images */
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.gallery img {
+  max-width: 300px; /* Adjust as needed */
+  width: 100%;
+  border: 1px solid #ccc;
+}
